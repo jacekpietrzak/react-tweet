@@ -1,0 +1,11 @@
+.tweet {
+  padding: 15px 30px;
+  border-radius: 5px;
+
+  /* box-shadow: 0 0 15px 0 rgba(51, 51, 51, 0.2); */
+  transition: box-shadow ease 150ms;
+}
+
+.tweet:hover {
+  box-shadow: 0 0 25px 0 rgba(51, 51, 51, 0.2);
+}
