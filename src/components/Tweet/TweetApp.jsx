@@ -29,7 +29,7 @@ class TweetApp extends Component {
     console.log("from TweetApp: ", this.state);
     return (
       <div>
-        <TweetForm onSubmit={this.addTweet} />
+        <TweetForm addTweet={this.addTweet} />
         <TweetList tweets={this.state.tweets} />
       </div>
     );

@@ -18,7 +18,7 @@ class TweetForm extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    this.props.onSubmit(this.state.text);
+    this.props.addTweet(this.state.text);
     this.setState({ text: "" });
   };
 
